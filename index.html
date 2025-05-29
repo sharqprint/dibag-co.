@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to Dibag Company</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #000;
+      border-bottom: 2px solid #d8af63;
+    }
+
+    .logo {
+      height: 60px;
+      margin-right: 20px;
+    }
+
+    .logo-text {
+      font-size: 28px;
+      color: #d8af63;
+      font-weight: bold;
+    }
+
+    .welcome {
+      padding: 60px 40px;
+      text-align: center;
+      font-size: 24px;
+      line-height: 1.5;
+    }
+
+    .social-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .social-buttons a {
+      display: flex;
+      align-items: center;
+      background-color: #d8af63;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .social-buttons a:hover {
+      background-color: #c9a057;
+    }
+
+    .social-buttons img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+
+    footer {
+      background-color: #111;
+      padding: 30px 40px;
+      text-align: center;
+      font-size: 14px;
+      color: #ccc;
+      border-top: 2px solid #d8af63;
+    }
+
+    .phone-copy {
+      cursor: pointer;
+      color: #d8af63;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo" class="logo" />
+    <div class="logo-text">أقمشة ديباج</div>
+  </header>
+
+  <section class="welcome">
+    <h1 style="color:#d8af63;">Welcome to Dibag Company</h1>
+    <p>We offer you the finest types of fabrics and the best services.</p>
+  </section>
+
+  <div class="social-buttons">
+    <a href="https://www.facebook.com/share/18vM4cVnPZ/"  target="_blank">
+      <img src="facebook.png" alt="Facebook" /> Facebook
+    </a>
+    <a href="https://www.instagram.com/dibag.tex?igsh=dGY5M3M1Z3k0MnQw" target="_blank">
+      <img src="instagram.png" alt="Instagram" /> Instagram
+    </a>
+    <a href="https://wa.me/963966700703" target="_blank">
+      <img src="whatsapp.png" alt="WhatsApp 1" /> WhatsApp 1
+    </a>
+    <a href="https://wa.me/963944700703" target="_blank">
+      <img src="whatsapp.png" alt="WhatsApp 2" /> WhatsApp 2
+    </a>
+    <a href="https://t.me/dibag_tex" target="_blank">
+      <img src="telegram.png" alt="Telegram" /> Telegram
+    </a>
+  </div>
+
+  <footer>
+    <p>&copy; جميع الحقوق محفوظة - سوريا حلب التلفون الهوائي</p>
+    <p class="phone-copy" onclick="navigator.clipboard.writeText('963944700703')">963944700703</p>
+    <p>تصميم: Fateh - 
+      <a href="https://www.instagram.com/fateh_moathen/" target="_blank" style="color:#d8af63; text-decoration:underline;"> 
+        Instagram
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
